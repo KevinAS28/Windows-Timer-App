@@ -128,16 +128,16 @@ class LoginPage:
         self.password_icon_label.image = photo
         self.password_icon_label.place(x=550, y=414)
         # ========= show/hide password ==================================================================
-        self.show_image = ImageTk.PhotoImage \
-            (file='images\\show.png')
+        # self.show_image = ImageTk.PhotoImage \
+        #     (file='images\\show.png')
 
-        self.hide_image = ImageTk.PhotoImage \
-            (file='images\\hide.png')
+        # self.hide_image = ImageTk.PhotoImage \
+        #     (file='images\\hide.png')
 
-        self.show_button = Button(self.lgn_frame, image=self.show_image, command=self.show, relief=FLAT,
-                                  activebackground="white"
-                                  , borderwidth=0, background="white", cursor="hand2")
-        self.show_button.place(x=860, y=420)
+        # self.show_button = Button(self.lgn_frame, image=self.show_image, command=self.show, relief=FLAT,
+        #                           activebackground="white"
+        #                           , borderwidth=0, background="white", cursor="hand2")
+        # self.show_button.place(x=860, y=420)
 
         # ========================================================================
         # ============================login button================================
